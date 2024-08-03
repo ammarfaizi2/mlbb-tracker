@@ -1,0 +1,115 @@
+/* BEAUFORT FONTS */
+@font-face {
+  font-family: 'Beaufort-Light';
+  src: url('../fonts/Beaufort/Beaufort-Light.otf') format('opentype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Beaufort-LightItalic';
+  src: url('../fonts/Beaufort/Beaufort-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Beaufort-Regular';
+  src: url('../fonts/Beaufort/Beaufort-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Beaufort-Italic';
+  src: url('../fonts/Beaufort/Beaufort-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Beaufort-Medium';
+  src: url('../fonts/Beaufort/Beaufort-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Beaufort-MediumItalic';
+  src: url('../fonts/Beaufort/Beaufort-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Beaufort-Bold';
+  src: url('../fonts/Beaufort/Beaufort-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Beaufort-BoldItalic';
+  src: url('../fonts/Beaufort/Beaufort-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Beaufort-Heavy';
+  src: url('../fonts/Beaufort/Beaufort-Heavy.otf') format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Beaufort-HeavyItalic';
+  src: url('../fonts/Beaufort/Beaufort-HeavyItalic.otf') format('opentype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* SPIEGEL FONTS */
+@font-face {
+  font-family: 'Spiegel-Regular';
+  src: url('../fonts/Spiegel/Spiegel-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Spiegel-RegularItalic';
+  src: url('../fonts/Spiegel/Spiegel-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Spiegel-SemiBold';
+  src: url('../fonts/Spiegel/Spiegel-SemiBold.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Spiegel-SemiBoldItalic';
+  src: url('../fonts/Spiegel/Spiegel-SemiBoldItalic.otf') format('opentype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Spiegel-Bold';
+  src: url('../fonts/Spiegel/Spiegel-Bold.otf') format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Spiegel-BoldItalic';
+  src: url('../fonts/Spiegel/Spiegel-BoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
