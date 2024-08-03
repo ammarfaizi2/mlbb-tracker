@@ -1,0 +1,5 @@
+# Package Managers
+
+package*.json
+pnpm-lock.yaml
+yarn.lock
