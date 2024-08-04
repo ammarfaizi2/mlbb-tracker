@@ -4,14 +4,17 @@
 </script>
 
 <main class="relative min-h-screen w-full">
-  <div>
-    <img
-      src="/images/background.webp"
-      alt="Site Background"
-      class="h-screen w-screen object-cover brightness-[30%] blur-[2px]"
-    />
-  </div>
-  <div class="absolute left-0 top-0 min-h-screen w-full bg-black/50 text-white px-10 py-8">
-    <slot />
+  <img
+    src="/images/background.webp"
+    alt="Site Background"
+    class="h-screen w-screen object-cover brightness-[30%]"
+  />
+  <div class="absolute left-0 top-0 z-[1] h-screen w-screen object-cover backdrop-blur-[.1vw]" />
+  <div
+    class="absolute left-0 top-0 z-[2] min-h-screen w-full bg-black/70 font-spiegel-regular text-white"
+  >
+    <div class="container px-10 py-8">
+      <slot />
+    </div>
   </div>
 </main>

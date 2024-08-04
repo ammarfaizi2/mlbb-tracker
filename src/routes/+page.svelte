@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import { ProfileCard, WinrateTab } from '$lib/components/custom';
+</script>
+
+<div class="space-y-5">
+  <ProfileCard />
+  <WinrateTab />
+</div>
