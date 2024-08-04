@@ -17,6 +17,7 @@
         "@sveltejs/vite-plugin-svelte": "^3.0.0",
         "@types/eslint": "^9.6.0",
         "autoprefixer": "^10.4.19",
+        "axios": "^1.7.3",
         "bits-ui": "^0.21.13",
         "clsx": "^2.1.1",
         "eslint": "^9.7.0",
