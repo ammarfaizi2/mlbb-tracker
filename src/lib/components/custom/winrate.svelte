@@ -3,13 +3,12 @@
 
   export let matches: number,
     winrate: number,
-    mvp: number,
-    centered: boolean = false;
+    mvp: number
 
   const splitByComma = (num: number) => num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 </script>
 
-<div class="flex items-center space-x-4 {centered ? 'text-center' : ''} text-sm uppercase">
+<div class="flex items-center space-x-4 text-center text-sm uppercase">
   <div>
     <div class=" font-beaufort-bold text-xl text-yellow-500">{splitByComma(matches)}</div>
     <div class="text-sm text-neutral-400">Matches</div>

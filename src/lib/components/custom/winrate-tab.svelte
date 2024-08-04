@@ -16,7 +16,7 @@
           <Card.Title class="font-beaufort-bold text-3xl uppercase">Classic</Card.Title>
         </Card.Header>
         <Card.Content class="space-y-2">
-          <Winrate matches={7093} winrate={70.3} mvp={3123} centered />
+          <Winrate matches={7093} winrate={70.3} mvp={3123} />
         </Card.Content>
       </Card.Root>
     </Tabs.Content>
@@ -26,7 +26,7 @@
           <Card.Title class="font-beaufort-bold text-3xl uppercase">Ranked</Card.Title>
         </Card.Header>
         <Card.Content class="space-y-2">
-          <Winrate matches={12321} winrate={89.3} mvp={8032} centered />
+          <Winrate matches={12321} winrate={89.3} mvp={8032} />
         </Card.Content>
       </Card.Root>
     </Tabs.Content>
