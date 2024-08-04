@@ -2,6 +2,8 @@
   import * as Tabs from '$lib/components/ui/tabs';
   import * as Card from '$lib/components/ui/card';
   import Winrate from './winrate.svelte';
+
+  export let data: Record<string, any>;
 </script>
 
 <Card.Root class="flex !w-max flex-col items-center justify-center p-3">

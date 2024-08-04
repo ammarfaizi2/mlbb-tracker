@@ -3,6 +3,8 @@
   import { Button } from '$lib/components/ui/button';
   import Winrate from './winrate.svelte';
 
+  export let data: Record<string, any>;
+
   let showId: boolean = false;
 </script>
 
@@ -18,14 +20,14 @@
       <Avatar.Root class="h-28 w-28">
         <Avatar.Image
           class="mask mask-image"
-          src="https://akmpicture.youngjoygame.com/dist/face/2091/8/10/57241008_96_new_3b501042-8718-4dad-ad54-b084e7de80a2.jpg"
+          src="{data.avatar}"
           alt="@rushkii"
           draggable="false"
         />
         <Avatar.Fallback>YLIJ</Avatar.Fallback>
       </Avatar.Root>
       <div class="flex flex-col py-2">
-        <div class="mb-2 font-beaufort-bold text-4xl tracking-widest">Your Lie In June</div>
+        <div class="mb-2 font-beaufort-bold text-4xl tracking-widest">{data.name}</div>
         <div class="font-spiegel-semibold text-lg uppercase">
           <span class="pr-1">ID: </span>
           <span>
@@ -35,10 +37,10 @@
               on:click={() => (showId = !showId)}
             >
               <span class="transition duration-200 {showId ? 'opacity-100' : 'opacity-0'}">
-                57241008
+                {data.roleId}
               </span>
               <span class="transition duration-200 {showId ? 'opacity-100' : 'opacity-0'}">
-                (2091)
+                ({data.zoneId})
               </span>
             </Button>
           </span>
